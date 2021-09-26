@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="../js/js_Form.js"></script>
+	<link rel="stylesheet" href="../css/estiloForm.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+			<div class="logo">
+				<h1>Programas</h1>
+			</div>
+			<nav class="menu">
+				<a href="#">Inicio</a>
+				<a href="#">Nosotros</a>
+				<a href="#">Blog</a>
+				<a href="#">Contacto</a>
+			</nav>
+		</div>
+	</header>
+	<div class="capa"></div>
+<!--	--------------->
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a href="../html/crearCaj.html">Crear Cajas</a>
+				<a href="../html/votoForm.html">Voto Formulario </a>
+				<a href="../html/sumNum.html">Suma de Numeros</a>
+				<a href="../html/mayorMen.html">Mayor a Menor</a>
+				<a href="../html/importe.html">Calcular Importe</a>
+				<a href="../html/sueldo.html">Calcular Sueldo</a>
+				<a href="../html/imparesSum.html">Suma de Impares</a>
+				<a href="../html/asteriscos.html">Pantalla con Asteriscos</a>
+				<a href="../html/tablas.html">Tablas de Multiplicar</a>
+				<a href="../html/sesion.html">Inicio de Sesión</a>
+			
+		</nav>
+		<label for="btn-menu">✖️</label>
+
+
+
+
+
+
+		
+	</div>
+</div>
+<article id="datos" class="formulario">
+    <h3 class="titulo">Registro de voto</h3>
+    <label for="">Selecciona tu zona de la ciudad</label>
+    <br>
+    <input class="opc" type="radio" name="zona" value="Norte" checked/>Norte 
+    <input class="opc" type="radio" name="zona" value="Centro"/>Centro
+    <input class="opc" type="radio" name="zona" value="Sur"/>Sur
+    <br>
+    <label for="">¿Por quien votaras?</label>
+    <br>
+    <input class="opc" type="radio" name="candidato" value="Candidato 1" checked/>Presidente 1
+    <input class="opc" type="radio" name="candidato" value="Candidato 2"/>Presidente 2
+    <input class="opc" type="radio" name="candidato" value="Candidato 3"/> Presidente 3
+    <br>
+    <br><input type="button" value="Mostrar" id="boton" onclick="mostrarDatos()"/>
+    <p id="resultado" class="res"></p><br>
+</article>
+
+</body>
+</html>
